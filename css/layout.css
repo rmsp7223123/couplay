@@ -165,3 +165,70 @@ address p {
     text-align: center;
     margin : 15px 0;
 }
+
+.login_tbl {
+    width: 600px;
+    margin: 0 auto;
+    border : 0;
+}
+
+.login_tbl td {
+    border: 0;
+}
+
+[for=login_id], [for=login_pw] {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    text-indent: 30px;
+    padding: 10px 0;
+}
+
+.indent-0 {
+    text-indent: 0;
+}
+
+#login_id, #login_pw {
+    width: 300px;
+    text-indent: 1rem;
+}
+
+#login {
+    height : 70px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    color : white;
+    padding : 7px 15px;
+}
+
+.round-btn {
+    border-radius: 20px;
+    background-color: black;
+}
+
+.round-btn:hover {
+    background-color: #F46800;
+}
+
+.privacy {
+    display: none;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,.4); /*그림자, 음영*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /*수평,수직 위치 정중앙 배치*/
+}
+
+.privacy h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+}
