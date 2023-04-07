@@ -1,0 +1,165 @@
+.d-none {
+    display: none;
+}
+
+.logo {
+    width: 100px;
+    margin : 50px auto;
+}
+
+.header-top {
+    background-color: #f5f5f5;
+    padding : 10px 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.header-top a {
+    margin : 0 5px;
+}
+
+.header-top a:hover {
+    color: #f46800;
+}
+
+#gnb {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+#gnb li{
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+#gnb li a {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#gnb li:hover {
+    background : #F46800;
+    color : white;
+}
+
+.page-title {
+    background : #fd8e39;
+    text-align: center;
+    text-transform: uppercase;
+    margin : 25px 0 ;
+}
+
+.page-title h2 {
+    font-size : 40px;
+    padding : 15px 0 0px 0;
+}
+
+.page-title p {
+    font-size : 16px;
+    padding : 0 0 25px 0;
+}
+
+.type_tbl, .user_tbl {
+    width: 1000px;
+}
+
+.type_tbl, .type_tbl th, .type_tbl td, .user_tbl, .user_tbl th, .user_tbl td {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+table {
+    margin : 30px 0;
+}
+
+.bt-2 {
+    border-top-width: 2px;
+    border-top-color:#000;
+}
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #f5f5f5;
+    text-align: left;
+    text-indent: 15px;
+    width: 20%;
+    padding : 10px 0;
+}
+
+td {
+    text-indent: 15px;
+    border-left : 1px solid #ccc;
+}
+
+.screen_out {
+    width : 0;
+    height : 0;
+    position: absolute;
+    left: -100%;
+}
+
+[for=u_avatar] {
+    background-color: #F46800;
+    padding : 3px 5px;
+    color: white;
+    border-radius: 2px;
+}
+
+[type=file] {
+    width:0;
+    height: 0;
+}
+
+.btns{
+    text-align: center;
+}
+
+[type=submit] {
+    background-color: #F46800;
+    color : white;
+    width: 100px;
+    height: 40px;
+}
+
+[type=reset] {
+    border : 1px solid #000;
+    width:100px;
+    height: 40px;
+}
+
+aside {
+    background-color: black;
+}
+
+.aside-wrap {
+    color : white;
+    text-align: center;
+    padding : 15px 0;
+    margin : 40px 0 20px 0;
+    font-size: 14px;
+}
+/* 
+.aside-wrap a {
+    margin : 0 10px;
+} */
+
+.aside-wrap a::after {
+    content : '|';
+    margin: 0 0 0 7px;
+}
+
+.aside-wrap a:nth-child(4)::after{
+    content: '';
+}
+
+address p {
+    text-align: center;
+    margin : 15px 0;
+}
