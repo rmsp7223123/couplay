@@ -14,8 +14,10 @@
     <!--개인정보취급방침-->
     <div class="privacy">
       <h2>개인정보취급방침</h2>
-      <p>개인정보 무단 수집거부 관련된 입장, 내용, 정책, 태도 등을 나열합니다.</p>
-      <button>닫기</button>
+      <p>
+        개인정보 무단 수집거부 관련된 입장, 내용, 정책, 태도 등을 나열합니다.
+      </p>
+      <button class="close" onclick="hidePopup();">닫기</button>
     </div>
     <div class="header-top">
       <a href="login.html">로그인</a>
@@ -85,7 +87,7 @@
     <aside>
       <div class="aside-wrap">
         <a href="agree.html">이용약관</a>
-        <a href="privacy.html">개인정보취급방침</a>
+        <a href="#" onclick="showPopup();">개인정보취급방침</a>
         <a href="guide.html">이용안내</a>
         <a href="cs-center.html">이용안내</a>
       </div>
@@ -96,5 +98,19 @@
         <p>copyright&copy; 2017. couplay. all rights reserved.</p>
       </address>
     </footer>
+    <!--자바스크립트 문법 : HTML/CSS/JS-->
+    <script>
+      function showPopup() {
+        const privacy = document.querySelector(".privacy");
+        privacy.style.display = "block";
+      }
+      function hidePopup() {
+        const privacy = document.querySelector(".privacy");
+        const closeBt = document.querySelector(".close");
+        closeBt.addEventListener("click", () => {
+          privacy.style.display = "none";
+        })
+      }
+    </script>
   </body>
 </html>
